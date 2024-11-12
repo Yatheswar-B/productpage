@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+}
+
+#nav {
+  box-shadow: 0px 0px 10px 10px black;
+}
+
+#nav1 {
+  position: sticky;
+  top: 0;
+  background: transparent;
+}
+
+.heromain {
+  background-image: url("https://i02.appmifile.com/827_operator_sg/11/04/2022/1b1aca44633d591e90f1d25f1060342a.png");
+  width: 100%;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid rgb(3, 3, 3);
+  border-radius: 4px;
+}
+.heromain .hero {
+  margin-top: 320px;
+  margin-left: 200px;
+  color: white;
+}
+.heromain .hero h1 {
+  font-size: 70px;
+}
+.heromain .hero h4 {
+  font-weight: 200;
+  font-size: 40px;
+}
+
+.banner {
+  width: 100%;
+  height: 250px;
+}
+.banner .bannerimg {
+  width: 100%;
+  height: 100%;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.fea {
+  width: 100%;
+  height: 900px;
+}
+.fea img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.specs .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.specs .text h1 {
+  background: linear-gradient(orange, gold, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+}
+.specs .text p {
+  width: 700px;
+  text-align: center;
+}
+.specs .specsimg {
+  width: 100%;
+  height: 500px;
+}
+.specs .specsimg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.specs .text2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.specs .text2 .productinfo {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 200px;
+  background: linear-gradient(orange, gold, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.specs .text2 .productinfo .productinfo1 {
+  text-align: center;
+}
+.specs .text2 .productinfo .productinfo2 {
+  text-align: center;
+}
+.specs .textaspect {
+  margin-top: 50px;
+  display: flex;
+  text-align: centerx;
+  flex-direction: column;
+  align-items: center;
+}
+.specs .textaspect h1 {
+  background: linear-gradient(orange, gold, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 30px;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.specs .specsimg1 {
+  width: 100%;
+  height: 500px;
+}
+.specs .specsimg1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.specs .textinfospec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  text-align: center;
+  background: linear-gradient(orange, gold, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer {
+  color: white;
+  background-color: black;
+}
+footer .foot {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .foot .part li, footer .foot .part1 li, footer .foot .part2 li, footer .foot .part3 li {
+  color: rgb(215, 222, 228);
+}
+footer .design {
+  background-color: black;
+}
+footer .design p {
+  padding-top: 30px;
+  text-align: center;
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */
